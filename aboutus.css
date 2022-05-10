@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #51ff00, #ffe292, #50d0ff, #4cf3cc);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+header{
+    font-family: "maneli";
+    font-size: 80px;
+    text-align: center;
+    color: blue;
+}
+.parham{
+    width: 175px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.amirali{
+    width: 175px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.parham_text{
+    font-family: "gandom";
+    color: rgb(255, 255, 0);
+    position: absolute;
+    top: 61%;
+    left: 32%;
+    opacity: 0%;
+}
+.amirali_text{
+    font-family: "gandom";
+    color: rgb(255, 255, 0);
+    position: absolute;
+    top: 61%;
+    left: 61%;
+    opacity: 0%;
+}
+.parham:hover~.parham_text{
+    opacity: 100%;
+}
+.amirali:hover~.amirali_text{
+    opacity: 100%;
+}
+.parham:hover{
+    box-shadow: 4px 8px 5px #646363;
+}
+.amirali:hover{
+    box-shadow: 4px 8px 5px #646363;
+}
+.sampad{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}

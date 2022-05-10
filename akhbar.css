@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, #51ff00, #ffe292, #50d0ff, #4cf3cc);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+.heb{
+    font-family: "gandom";
+    color: red;
+    text-align: right;
+    font-size: 20px;
+}
