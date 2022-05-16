@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Khandevane";
     src: url(./font/Khandevane.ttf);
-    font-family: "maneli";
+    font-family: "Maneli";
     src: url(./font/maneli.ttf);
     font-family: "Gandom";
     src: url(./font/Gandom.ttf);
@@ -15,7 +15,7 @@ body{
     animation: gradient 8s ease infinite;
 }
 header{
-    font-family: "maneli";
+    font-family: "Maneli";
     font-size: 80px;
     text-align: center;
     color: blue;

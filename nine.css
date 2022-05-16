@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Khandevane";
     src: url(./font/Khandevane.ttf);
-    font-family: "maneli";
+    font-family: "Maneli";
     src: url(./font/maneli.ttf);
     font-family: "Gandom";
     src: url(./font/Gandom.ttf);
   }
 .title{
-    font-family: "maneli";
+    font-family: "Maneli";
     text-align: center;
     color: #f72585;
     font-size: 60px;
